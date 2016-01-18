@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DCD66B21C4C677E00590959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD66B11C4C677E00590959 /* AppDelegate.swift */; };
+		8DCD66B41C4C677E00590959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD66B31C4C677E00590959 /* ViewController.swift */; };
+		8DCD66B71C4C677E00590959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66B51C4C677E00590959 /* Main.storyboard */; };
+		8DCD66B91C4C677E00590959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66B81C4C677E00590959 /* Assets.xcassets */; };
+		8DCD66BC1C4C677E00590959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66BA1C4C677E00590959 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DCD66AE1C4C677E00590959 /* My Little Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Little Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCD66B11C4C677E00590959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DCD66B31C4C677E00590959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DCD66B61C4C677E00590959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DCD66B81C4C677E00590959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DCD66BB1C4C677E00590959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DCD66BD1C4C677E00590959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCD66AB1C4C677E00590959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DCD66A51C4C677E00590959 = {
+			isa = PBXGroup;
+			children = (
+				8DCD66B01C4C677E00590959 /* My Little Pet */,
+				8DCD66AF1C4C677E00590959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCD66AF1C4C677E00590959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD66AE1C4C677E00590959 /* My Little Pet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCD66B01C4C677E00590959 /* My Little Pet */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD66B11C4C677E00590959 /* AppDelegate.swift */,
+				8DCD66B31C4C677E00590959 /* ViewController.swift */,
+				8DCD66B51C4C677E00590959 /* Main.storyboard */,
+				8DCD66B81C4C677E00590959 /* Assets.xcassets */,
+				8DCD66BA1C4C677E00590959 /* LaunchScreen.storyboard */,
+				8DCD66BD1C4C677E00590959 /* Info.plist */,
+			);
+			path = "My Little Pet";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCD66AD1C4C677E00590959 /* My Little Pet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCD66C01C4C677E00590959 /* Build configuration list for PBXNativeTarget "My Little Pet" */;
+			buildPhases = (
+				8DCD66AA1C4C677E00590959 /* Sources */,
+				8DCD66AB1C4C677E00590959 /* Frameworks */,
+				8DCD66AC1C4C677E00590959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Little Pet";
+			productName = "My Little Pet";
+			productReference = 8DCD66AE1C4C677E00590959 /* My Little Pet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCD66A61C4C677E00590959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SCDE;
+				TargetAttributes = {
+					8DCD66AD1C4C677E00590959 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8DCD66A91C4C677E00590959 /* Build configuration list for PBXProject "My Little Pet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCD66A51C4C677E00590959;
+			productRefGroup = 8DCD66AF1C4C677E00590959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCD66AD1C4C677E00590959 /* My Little Pet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCD66AC1C4C677E00590959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCD66BC1C4C677E00590959 /* LaunchScreen.storyboard in Resources */,
+				8DCD66B91C4C677E00590959 /* Assets.xcassets in Resources */,
+				8DCD66B71C4C677E00590959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCD66AA1C4C677E00590959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCD66B41C4C677E00590959 /* ViewController.swift in Sources */,
+				8DCD66B21C4C677E00590959 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DCD66B51C4C677E00590959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCD66B61C4C677E00590959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DCD66BA1C4C677E00590959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCD66BB1C4C677E00590959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DCD66BE1C4C677E00590959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DCD66BF1C4C677E00590959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCD66C11C4C677E00590959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Little Pet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SCDE.My-Little-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DCD66C21C4C677E00590959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Little Pet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SCDE.My-Little-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCD66A91C4C677E00590959 /* Build configuration list for PBXProject "My Little Pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCD66BE1C4C677E00590959 /* Debug */,
+				8DCD66BF1C4C677E00590959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCD66C01C4C677E00590959 /* Build configuration list for PBXNativeTarget "My Little Pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCD66C11C4C677E00590959 /* Debug */,
+				8DCD66C21C4C677E00590959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DCD66A61C4C677E00590959 /* Project object */;
+}
